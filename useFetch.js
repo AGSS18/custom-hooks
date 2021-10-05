@@ -38,4 +38,4 @@ export const useFetch = (url) => {
 
 }
 
-//el useRef en este caso me va a permitir montar y desmontar el componente de multiple hooks y asi evitar errores ya que al no usarse arroja un error que dice que 'Can't perform React state update on unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in a useEffect cleanup function'
+//el useRef en este caso permite montar y desmontar el componente que requiere de esta respuesta y asi evitar errores ya que al no usarse arroja el error: 'Can't perform React state update on unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in a useEffect cleanup function'

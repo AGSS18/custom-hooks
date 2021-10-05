@@ -6,10 +6,7 @@ export const useCounter = (initialState = 10) => {
     const increment = () => {
         setCounter(counter + 1);
     }
-    // const increment = (factor = 1) => {
-    //     setCounter(counter + factor);
-    // }
-
+   
     const reset = () => {
         setCounter(initialState);
     }
@@ -17,9 +14,6 @@ export const useCounter = (initialState = 10) => {
     const decrement = () => {
         setCounter(counter - 1);
     }
-    // const decrement = (factor = 1) => {
-    //     setCounter(counter - factor);
-    // }
 
     return {
         counter,
