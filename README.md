@@ -1,3 +1,3 @@
-#Notas
+#Notes
 
-Este repositorio contiene varios customHooks para ayudarme a simplificar aplicaciones de react que los requieran.
+this repository contains custom hooks to help simplify react applications.
