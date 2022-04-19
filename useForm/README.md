@@ -8,5 +8,5 @@ Example:
         age: '',
         email: ''
     };
-    const [formValues, handleInputChange, reset] = useForm(initialFormState);
+    const [formValues, handleInputChange, reset] = useForm(initialState);
 ```
