@@ -1,6 +1,0 @@
-Branching remote branch
-Branching remote branch
-
-Adding 2nd branch to remote branch
-
-Adding 3rd branch to remote branch
